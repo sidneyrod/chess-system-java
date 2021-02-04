@@ -58,6 +58,7 @@ public class Board {
 		if (!positionExists(position)) {
 			throw new BoardException("Position not on the board");
 		}
+		
 		return piece(position) != null;
 	}
 	
